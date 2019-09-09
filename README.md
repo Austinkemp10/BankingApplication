@@ -5,24 +5,25 @@ In this application I use abstract classes in Java to implement a banking applic
 
 The main jobs of this banking application are to maintain user accounts and balances, and track withdrawals and deposits.
 
+---
 
 Account.java
 
   This class is an abstract class that sets the necessary components that will be required to be built upon in subclasses CheckingAccount and SavingsAccount.
   
-  
+  ---
 
 CheckingAccount.java
 
   This class uses the account abstract class as a template to create this class which has more detailed functionality of the basic Account class. In this class I calculate the creation, depositing, and withdrawing of checkings accounts.
 
-
+---
 
 SavingsAccount.java
 
   This class uses the Account abstract class as a template to create this class which has more detailed functionality of the basic Account class. In this class I calculate the creation, depositing, and withdrawing of savings accounts.
   
-  
+ --- 
   
 BankingApplication.java
 
